@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+	<head>
+
+		<meta charset="utf-8">
+		<title>Formulário Dinâmico</title>
+		<style type="text/css">
+			p{
+				color: white;
+			}
+			body,html{
+				text-align: center;
+				height: 100%;
+				margin: 0;
+				background-image: url(imagens/fundo5.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;
+				}
+			h2{
+				color: white;
+			}
+			}
+			main {
+				    text-align: center;
+				    width: 100%;
+				    margin: 0px 0;
+}
+
+			form {
+				    display: inline-block;
+				    width: 300px;
+				}
+
+			form label {
+					    display:block;
+					    font-size: 20px;
+					}
+
+			form input {
+					    display: block;
+					    margin: 0 0 10px;
+					    padding: 10px 3px;
+					    width: 100%;
+					}
+
+			form select {
+						display: block;
+						padding: 5px;
+						width: 100%
+					}
+		</style>
+			
+	</head>
+	
+	<body>
+		
+<form>
+		
+			<fieldset>
+			<h2><legend>Formulário Dinâmico</legend></h2>
+	
+
+		<p><label for="E-Mail">E-mail:</label><input type="email" name="email" id="1"></p>
+		<p><label for="Número">Número:</label><input type="number" name="numero" id="3"></p>
+		<p><label for="Senha">Senha:</label><input type="password" name="senha" id="2"></p>
+		<p><label for="selecao">Seleção:</label><select name="selecao"></p>
+			</fieldset>
+			
+			<option value="1">E-mail</option>
+			<option value="2">Número</option>
+			<option value="3">Senha</option>
+			<option value="4">Selecao</option></select><br/>
+
+	<input class="Enviar" type="submit" name="Enviar" value="Enviar">
+</form>
+			
+		
+	</body>
+
+</html>
